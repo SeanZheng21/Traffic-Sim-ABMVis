@@ -1,0 +1,30 @@
+{
+  "InputPath": "./input",
+  "PackageName": "MatSimModel",
+  "MandatoryModules" : [
+      {
+          "InputName": "output_events.xml",
+          "ModelName": "MSEvent",
+          "XPath": "events/event",
+          "SuperModelName":  "Event"
+      }, {
+          "InputName": "output_network.xml",
+          "ModelName": "MSLink" ,
+          "XPath": "network/links/link",
+          "SuperModelName": "Link"
+      }, {
+          "InputName": "output_network.xml",
+          "ModelName": "MSNode" ,
+          "XPath": "network/nodes/node",
+          "SuperModelName": "MSNetwork"
+      }
+  ],
+  "OptionalModules" : [
+      {
+          "InputName": "output_network.xml",
+          "SuperModelName": "MSHousehold",
+          "XPath": "households/household",
+          "ModelName" :  "Household",
+      }
+  ]
+}

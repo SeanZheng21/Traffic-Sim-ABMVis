@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<households version="1.0">
+	<household type="apartment"  x="-2000.0" y="-2000.0"/>
+	<household type="house"  x="2000.0" y="2000.0"/>
+	<household type="apartment"  x="0.0" y="0.0"/>
+</households>
