@@ -1,33 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ecf40de-12e8-4b40-b59f-60340e5fce86" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="2fcba246-2030-4f6d-bab1-a7428dc30561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20190722.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myartifact.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AbmModel/Scenario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbmModel/Scenario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AbmParser/MandatoryParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbmParser/MandatoryParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AbmParser/OptionalParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbmParser/OptionalParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AbmParser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbmParser/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AbmParser/ParserConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AbmParser/ParserConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ABMVis3000.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MatsimParser/MSMandatoryParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MatsimParser/MSMandatoryParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MatsimParser/MSOptionalParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MatsimParser/MSOptionalParser.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1WLfBWwfCjsdex3S1qhdcrkTu2q" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WRIi0yEdhTnO6kYWmXH2TOEg5r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainGUI.Main" />
+      <module name="myartifact" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MainGUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -36,16 +87,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6ecf40de-12e8-4b40-b59f-60340e5fce86" name="Default Changelist" comment="" />
-      <created>1578933660619</created>
+      <changelist id="2fcba246-2030-4f6d-bab1-a7428dc30561" name="Default Changelist" comment="" />
+      <created>1579106103401</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578933660619</updated>
-      <workItem from="1578933662065" duration="341000" />
+      <updated>1579106103401</updated>
+      <workItem from="1579106104851" duration="648000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1579106737381">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1579106737381" />
+    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1579106737380">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1579106737380" />
+    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1579106737379">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1579106737379" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1579106737380">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1579106737380" />
+    <state x="258" y="93" key="Maven.ArtifactSearchDialog" timestamp="1579106616806">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="258" y="93" key="Maven.ArtifactSearchDialog/0.23.1440.814@0.23.1440.814" timestamp="1579106616806" />
+    <state x="258" y="93" key="Maven.ArtifactSearchDialog/0.23.1440.816@0.23.1440.816" timestamp="1579106134220" />
   </component>
 </project>
