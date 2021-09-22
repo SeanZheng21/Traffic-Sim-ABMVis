@@ -1,0 +1,36 @@
+<event time="21600.0" type="actend" person="1" link="1" actType="h"  />
+Event{id=3314, time=21600.0, type='actend', x=-20000.0, y=0.0, person=1, vehicle=-1, link=1, facility=-1, valid=true}
+<event time="21600.0" type="departure" person="1" link="1" legMode="car"  />
+<event time="21600.0" type="PersonEntersVehicle" person="1" vehicle="1"  />
+Event{id=3316, time=21600.0, type='PersonEntersVehicle', x=-20000.0, y=0.0, person=1, vehicle=1, link=-1, facility=-1, valid=true}
+<event time="21609.0" type="vehicle enters traffic" person="1" link="1" vehicle="1" networkMode="car" relativePosition="1.0"  />
+<event time="22625.0" type="vehicle leaves traffic" person="1" link="20" vehicle="1" networkMode="car" relativePosition="1.0"  />
+<event time="22625.0" type="PersonLeavesVehicle" person="1" vehicle="1"  />
+Event{id=4405, time=22625.0, type='PersonLeavesVehicle', x=5000.0, y=0.0, person=1, vehicle=1, link=-1, facility=-1, valid=true}
+<event time="22625.0" type="arrival" person="1" link="20" legMode="car"  />
+<event time="22625.0" type="actstart" person="1" link="20" actType="w"  />
+Event{id=4407, time=22625.0, type='actstart', x=5000.0, y=0.0, person=1, vehicle=-1, link=20, facility=-1, valid=true}
+<event time="23225.0" type="actend" person="1" link="20" actType="w"  />
+Event{id=4408, time=23225.0, type='actend', x=0.0, y=0.0, person=1, vehicle=-1, link=20, facility=-1, valid=true}
+<event time="23225.0" type="departure" person="1" link="20" legMode="car"  />
+<event time="23225.0" type="PersonEntersVehicle" person="1" vehicle="1"  />
+Event{id=4410, time=23225.0, type='PersonEntersVehicle', x=0.0, y=0.0, person=1, vehicle=1, link=-1, facility=-1, valid=true}
+<event time="23225.0" type="vehicle enters traffic" person="1" link="20" vehicle="1" networkMode="car" relativePosition="1.0"  />
+<event time="23226.0" type="vehicle leaves traffic" person="1" link="20" vehicle="1" networkMode="car" relativePosition="1.0"  />
+<event time="23226.0" type="PersonLeavesVehicle" person="1" vehicle="1"  />
+Event{id=4413, time=23226.0, type='PersonLeavesVehicle', x=5000.0, y=0.0, person=1, vehicle=1, link=-1, facility=-1, valid=true}
+<event time="23226.0" type="arrival" person="1" link="20" legMode="car"  />
+<event time="23226.0" type="actstart" person="1" link="20" actType="w"  />
+Event{id=4415, time=23226.0, type='actstart', x=5000.0, y=0.0, person=1, vehicle=-1, link=20, facility=-1, valid=true}
+<event time="35826.0" type="actend" person="1" link="20" actType="w"  />
+Event{id=5984, time=35826.0, type='actend', x=0.0, y=0.0, person=1, vehicle=-1, link=20, facility=-1, valid=true}
+<event time="35826.0" type="departure" person="1" link="20" legMode="car"  />
+<event time="35826.0" type="PersonEntersVehicle" person="1" vehicle="1"  />
+Event{id=5986, time=35826.0, type='PersonEntersVehicle', x=0.0, y=0.0, person=1, vehicle=1, link=-1, facility=-1, valid=true}
+<event time="35826.0" type="vehicle enters traffic" person="1" link="20" vehicle="1" networkMode="car" relativePosition="1.0"  />
+<event time="38166.0" type="vehicle leaves traffic" person="1" link="1" vehicle="1" networkMode="car" relativePosition="1.0"  />
+<event time="38166.0" type="PersonLeavesVehicle" person="1" vehicle="1"  />
+Event{id=5997, time=38166.0, type='PersonLeavesVehicle', x=-15000.0, y=0.0, person=1, vehicle=1, link=-1, facility=-1, valid=true}
+<event time="38166.0" type="arrival" person="1" link="1" legMode="car"  />
+<event time="38166.0" type="actstart" person="1" link="1" actType="h"  />
+Event{id=5999, time=38166.0, type='actstart', x=-15000.0, y=0.0, person=1, vehicle=-1, link=1, facility=-1, valid=true}

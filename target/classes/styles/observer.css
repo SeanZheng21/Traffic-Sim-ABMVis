@@ -1,0 +1,19 @@
+/*Feuille de style concernant
+    - observer.fxml*/
+
+
+/*Variable de couleur, a changer si besoin */
+{
+    bg-color: #4B4B4B;
+    label-color: #B9B9B9;
+    hover-bg-color: #C3C3C3;
+    hover-label-color: #FFFFFF;
+}
+
+#rootObserver{
+    -fx-background-color: bg-color;
+}
+
+#rootObserver .label{
+    -fx-text-fill: label-color;
+}

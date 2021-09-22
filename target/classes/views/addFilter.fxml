@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="rootAddFilter" stylesheets="@../styles/addFilter.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainGUI.AddFilterController">
+   <VBox spacing="10.0">
+        <HBox fx:id="hboxLabel" alignment="CENTER_LEFT">
+            <Label text="Nom du filtre :" />
+            <TextField fx:id="nameField">
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <HBox.margin>
+               <Insets left="10.0" />
+            </HBox.margin></TextField>
+        </HBox>
+        <VBox fx:id="linePane" />
+        <Button alignment="CENTER" contentDisplay="CENTER" onAction="#addFilterMenu" text="+" />
+        <Button alignment="CENTER" contentDisplay="CENTER" onAction="#submitButtonPressed" text="valider" />
+      <padding>
+         <Insets top="10.0" />
+      </padding>
+   </VBox>
+</AnchorPane>

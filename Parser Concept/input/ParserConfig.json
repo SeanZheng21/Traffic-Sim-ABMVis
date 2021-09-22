@@ -1,0 +1,53 @@
+{
+      "ScenarioName": "My Scenario",
+      "InputPath": "./input",
+      "PackageName": "MatsimModel",
+      "Unit": "Imperial",
+      "ParserPackage": "MatsimParser",
+      "MandatoryModules" : [
+          {
+              "InputFile": "output_events.xml",
+              "ModelName": "MSEvent",
+              "Path": "event",
+              "SuperModelName":  "Event",
+              "ParserName": "MSMandatoryParser"
+          }, {
+              "InputFile": "output_network.xml",
+              "ModelName": "MSLink" ,
+              "Path": "link",
+              "SuperModelName": "Link",
+              "ParserName": "MSMandatoryParser"
+          }, {
+              "InputFile": "output_network.xml",
+              "ModelName": "MSNode" ,
+              "Path": "node",
+              "SuperModelName": "MSNetwork",
+              "ParserName": "MSMandatoryParser"
+          }
+      ],
+      "OptionalModules" : [
+          {
+              "InputFile": "output_household.xml",
+              "ModelName" :  "MSHousehold",
+              "Path": "household",
+              "SuperModelName": "Household",
+              "ParserName": "MSOptionalParser"
+          }
+      ],
+    "Injections" : [
+        {
+            "InputFile" : " output_network.xml",
+            "InjectableModel" : "MSNode",
+            "AcceptorModel" : "MSNetwork",
+            "Path" : "node",
+            "AcceptorField" : "nodes"
+        },
+        {
+            "InputFile" : " output_network.xml",
+            "InjectableModel" : "MSLink",
+            "AcceptorModel" : "MSNetwork",
+            "Path" : "link",
+            "AcceptorField" : "links"
+        }
+    ]
+}

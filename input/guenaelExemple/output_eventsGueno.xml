@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events version="1.0">
+	<event time="6" type="PersonEntersVehicle" person="1" vehicle="1"  />
+	<event time="10" type="entered link" vehicle="1" link="1"  />
+	<event time="50" type="left link" vehicle="1" link="1"  />
+	<event time="55" type="PersonLeavesVehicle" person="1" vehicle="1" />
+	<event time="55" type="actstart" person="1" link="1" actType="h" facility="1"/>
+	<event time="99" type="actend" person="1" link="1" actType="h" facility="1"  />
+	<event time="100" type="PersonEntersVehicle" person="1" vehicle="1"  />
+	<event time="101" type="entered link" vehicle="1" link="2"  />
+	<event time="150" type="left link" vehicle="1" link="2"  />
+	<event time="150" type="entered link" vehicle="1" link="3"  />
+	<event time="200" type="left link" vehicle="1" link="3"  />
+	<event time="205" type="PersonLeavesVehicle" person="1" vehicle="1" />
+</events>

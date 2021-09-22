@@ -1,44 +1,57 @@
 package MainGUI;
+
 import AbmModel.Scenario;
 import AbmParser.ParserConfigurer;
 import javafx.application.Application;
-import javafx.collections.ObservableList;
-import javafx.scene.Group;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.paint.Color;
-import javafx.scene.text.Font;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class Main extends Application{
+import java.io.File;
+import java.net.URL;
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+/**
+ * Main class to launch the application
+ */
+public class Main extends Application {
 
-    public void start(Stage primaryStage) throws Exception {
+    @Override
+    public void start(Stage primaryStage) throws Exception{
 
-        Scenario scenario = startParser("./input/ParserConfig.json");
-
-        Text text = new Text();
-        text.setFont(new Font(8));
-        text.setX(10);
-        text.setY(10);
-        text.setText(scenario.toString());
-        System.out.println(text.getText());
-
-        Group group = new Group();
-        Scene scene = new Scene(group ,800, 600);
-        scene.setFill(Color.WHITE);
-        ObservableList list = group.getChildren();
-        list.add(text);
+        FXMLLoader loader = new FXMLLoader(getClass().getClassLoader().getResource("views/main.fxml"));
+        Parent root = loader.load();
+        
         primaryStage.setTitle("ABMVis3000");
-        primaryStage.setScene(scene);
+        primaryStage.setMaximized(true);
+        //primaryStage.setWidth(1000);
+        //primaryStage.setHeight(1000);
+        
+        Scene mainScene = new Scene(root);
+        mainScene.getStylesheets().add("styles/main.css");
+        //loader.<Controller>getController().setPath("input/guenaelExemple/ParserConfigGueno.json");
+        primaryStage.setScene(mainScene);
         primaryStage.show();
     }
 
-    private Scenario startParser(String configJsonPath) {
-        ParserConfigurer parserConfigurer =  new ParserConfigurer(configJsonPath);
+    /**
+     * command line launched
+     * @param args comand line arguments
+     */
+    public static void main(String []args) {
+        launch(args);
+    }
+
+
+    /**
+     * Start the parser and create a scenario result from a path
+     * @param configJsonPath the path of the parser configuration file
+     * @return the result scenario
+     */
+    public static Scenario startParser(String configJsonPath) {
+        // Create a parser from the given configuration path
+        ParserConfigurer parserConfigurer =  new ParserConfigurer(configJsonPath, false);
+        // Launch the parser and return the parsing result
         return parserConfigurer.parse();
     }
 }

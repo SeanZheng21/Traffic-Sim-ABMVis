@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE network SYSTEM "http://www.matsim.org/files/dtd/network_v1.dtd">
+
+<network name="equil test network">
+   <nodes>
+      <node id="1" x="0" y="0" type="node"/>
+      <node id="2" x="100" y="100" type="node"/>
+      <node id="3" x="0" y="100" type="node"/>
+   </nodes>
+   <links capperiod="01:00:00">
+      <link id="1" from="1" to="2" length="1000.00" capacity="36000" freespeed="50" permlanes="1"  />
+      <link id="2" from="2" to="3" length="1000.00" capacity="3600" freespeed="50" permlanes="1"  />
+      <link id="3" from="3" to="1" length="1000.00" capacity="3600" freespeed="50" permlanes="1"  type="Departementale"/>
+   </links>
+</network>

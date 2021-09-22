@@ -1,0 +1,60 @@
+/*Feuille de style concernant
+    - filtreView.fxml
+    - filtreDetail.fxml
+    - filtresDetails.fxml*/
+
+
+/*Variable de couleur, a changer si besoin */
+{
+    bg-color: #4B4B4B;
+    label-color: #B9B9B9;
+    hover-bg-color: #C3C3C3;
+    hover-label-color: #FFFFFF;
+}
+
+#rootFiltre{
+    -fx-background-color: bg-color;
+    -fx-border-color: bg-color;
+}
+
+#rootFiltre .label{
+    -fx-text-fill: label-color;
+}
+
+
+.titled-pane {
+    -fx-text-fill: label-color;
+    -fx-background-color: bg-color;
+    -fx-border-color: bg-color;
+}
+
+.titled-pane .title
+{
+    -fx-background-color: bg-color
+}
+
+.titled-pane > .title > .arrow-button .arrow
+{
+    -fx-background-color: BLACK, GREEN;
+    /*-fx-background-insets: 1 0 -1 0, 0;*/
+    -fx-padding: 0.25em 0.3125em 0.25em 0.3125em; /* 3 3.75 3 3.75 */
+    -fx-shape: "M 0 0 L 300 0 L 150 150 z";
+    -fx-min-width: 20;
+    -fx-min-height: 20;
+}
+
+.titled-pane > *.content
+{
+    -fx-background-color: bg-color, bg-color;
+    -fx-background-insets: 0, 0 1 1 1;
+    -fx-padding: 0.167em;
+}
+
+.titled-pane > *.content {
+    -fx-border-color: transparent;
+}
+
+.titled-pane {
+    -fx-border-color: transparent transparent black transparent;
+}
+

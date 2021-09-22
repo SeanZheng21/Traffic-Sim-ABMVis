@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <events version="1.0">
+	<event time="21500.0" type="PersonLeavesVehicle" person="6" vehicle="6" />
+	<event time="21500.0" type="actstart" person="2" link="3" actType="h" />
+	<event time="21500.0" type="actstart" person="6" link="3" actType="h" />
 	<event time="21600.0" type="actend" person="4" link="3" actType="h"  />
 	<event time="21600.0" type="departure" person="4" link="3" legMode="car"  />
 	<event time="21600.0" type="PersonEntersVehicle" person="4" vehicle="4"  />
 	<event time="21600.0" type="actend" person="1" link="3" actType="h"  />
 	<event time="21600.0" type="departure" person="1" link="3" legMode="car"  />
 	<event time="21600.0" type="PersonEntersVehicle" person="1" vehicle="1"  />
-	<event time="21600.0" type="vehicle enters traffic" person="4" link="3" vehicle="4" networkMode="car" relativePosition="1.0"  />
-	<event time="21600.0" type="vehicle enters traffic" person="1" link="3" vehicle="1" networkMode="car" relativePosition="1.0"  />
+	<event time="21600.0" type="entered link" vehicle="4" link="3" />
+	<event time="21600.0" type="entered link" vehicle="1" link="3" />
 	<event time="21601.0" type="left link" vehicle="4" link="3"  />
 	<event time="21601.0" type="entered link" vehicle="4" link="4"  />
 	<event time="21601.0" type="left link" vehicle="1" link="3"  />
@@ -15,229 +18,20 @@
 	<event time="21720.0" type="actend" person="5" link="3" actType="h"  />
 	<event time="21720.0" type="departure" person="5" link="3" legMode="car"  />
 	<event time="21720.0" type="PersonEntersVehicle" person="5" vehicle="5"  />
-	<event time="21720.0" type="vehicle enters traffic" person="5" link="3" vehicle="5" networkMode="car" relativePosition="1.0"  />
+	<event time="21720.0" type="entered link" vehicle="5" link="3" />
 	<event time="21721.0" type="left link" vehicle="5" link="3"  />
+	<event time="21721.0" type="leg"/>
 	<event time="21721.0" type="entered link" vehicle="5" link="4"  />
+	<event time="21724.0" type="PersonLeavesVehicle" person="4" vehicle="4" />
+	<event time="21726.0" type="PersonLeavesVehicle" person="1" vehicle="1" />
+	<event time="21728.0" type="actstart" person="4" link="3" actType="h" />
 	<event time="21780.0" type="actend" person="6" link="3" actType="h"  />
 	<event time="21780.0" type="departure" person="6" link="3" legMode="car"  />
 	<event time="21780.0" type="PersonEntersVehicle" person="6" vehicle="6"  />
-	<event time="21780.0" type="vehicle enters traffic" person="6" link="3" vehicle="6" networkMode="car" relativePosition="1.0"  />
-	<event time="21781.0" type="left link" vehicle="6" link="3"  />
-	<event time="21781.0" type="entered link" vehicle="6" link="4"  />
-	<event time="21961.0" type="left link" vehicle="4" link="4"  />
-	<event time="21961.0" type="entered link" vehicle="4" link="5"  />
-	<event time="21961.0" type="left link" vehicle="1" link="4"  />
-	<event time="21961.0" type="entered link" vehicle="1" link="1"  />
-	<event time="22081.0" type="left link" vehicle="5" link="4"  />
-	<event time="22081.0" type="entered link" vehicle="5" link="5"  />
-	<event time="22140.0" type="vehicle leaves traffic" person="4" link="5" vehicle="4" networkMode="car" relativePosition="1.0"  />
-	<event time="22140.0" type="PersonLeavesVehicle" person="4" vehicle="4"  />
-	<event time="22140.0" type="arrival" person="4" link="5" legMode="car"  />
-	<event time="22140.0" type="actstart" person="4" link="5" actType="w"  />
-	<event time="22141.0" type="left link" vehicle="6" link="4"  />
-	<event time="22141.0" type="entered link" vehicle="6" link="1"  />
-	<event time="22200.0" type="actend" person="2" link="3" actType="h"  />
-	<event time="22200.0" type="departure" person="2" link="3" legMode="car"  />
-	<event time="22200.0" type="PersonEntersVehicle" person="2" vehicle="2"  />
-	<event time="22200.0" type="vehicle enters traffic" person="2" link="3" vehicle="2" networkMode="car" relativePosition="1.0"  />
-	<event time="22201.0" type="left link" vehicle="2" link="3"  />
-	<event time="22201.0" type="entered link" vehicle="2" link="4"  />
-	<event time="22260.0" type="vehicle leaves traffic" person="5" link="5" vehicle="5" networkMode="car" relativePosition="1.0"  />
-	<event time="22260.0" type="PersonLeavesVehicle" person="5" vehicle="5"  />
-	<event time="22260.0" type="arrival" person="5" link="5" legMode="car"  />
-	<event time="22260.0" type="actstart" person="5" link="5" actType="w"  />
-	<event time="22320.0" type="vehicle leaves traffic" person="1" link="1" vehicle="1" networkMode="car" relativePosition="1.0"  />
-	<event time="22320.0" type="PersonLeavesVehicle" person="1" vehicle="1"  />
-	<event time="22320.0" type="arrival" person="1" link="1" legMode="car"  />
-	<event time="22320.0" type="actstart" person="1" link="1" actType="w"  />
-	<event time="22500.0" type="actend" person="3" link="3" actType="h"  />
-	<event time="22500.0" type="departure" person="3" link="3" legMode="car"  />
-	<event time="22500.0" type="PersonEntersVehicle" person="3" vehicle="3"  />
-	<event time="22500.0" type="vehicle leaves traffic" person="6" link="1" vehicle="6" networkMode="car" relativePosition="1.0"  />
-	<event time="22500.0" type="PersonLeavesVehicle" person="6" vehicle="6"  />
-	<event time="22500.0" type="arrival" person="6" link="1" legMode="car"  />
-	<event time="22500.0" type="actstart" person="6" link="1" actType="w"  />
-	<event time="22500.0" type="vehicle enters traffic" person="3" link="3" vehicle="3" networkMode="car" relativePosition="1.0"  />
-	<event time="22501.0" type="left link" vehicle="3" link="3"  />
-	<event time="22501.0" type="entered link" vehicle="3" link="4"  />
-	<event time="22561.0" type="left link" vehicle="2" link="4"  />
-	<event time="22561.0" type="entered link" vehicle="2" link="1"  />
-	<event time="22861.0" type="left link" vehicle="3" link="4"  />
-	<event time="22861.0" type="entered link" vehicle="3" link="1"  />
-	<event time="22920.0" type="vehicle leaves traffic" person="2" link="1" vehicle="2" networkMode="car" relativePosition="1.0"  />
-	<event time="22920.0" type="PersonLeavesVehicle" person="2" vehicle="2"  />
-	<event time="22920.0" type="arrival" person="2" link="1" legMode="car"  />
-	<event time="22920.0" type="actstart" person="2" link="1" actType="w"  />
-	<event time="23220.0" type="vehicle leaves traffic" person="3" link="1" vehicle="3" networkMode="car" relativePosition="1.0"  />
-	<event time="23220.0" type="PersonLeavesVehicle" person="3" vehicle="3"  />
-	<event time="23220.0" type="arrival" person="3" link="1" legMode="car"  />
-	<event time="23220.0" type="actstart" person="3" link="1" actType="w"  />
-	<event time="23520.0" type="actend" person="1" link="1" actType="w"  />
-	<event time="23520.0" type="departure" person="1" link="1" legMode="car"  />
-	<event time="23520.0" type="PersonEntersVehicle" person="1" vehicle="1"  />
-	<event time="23520.0" type="vehicle enters traffic" person="1" link="1" vehicle="1" networkMode="car" relativePosition="1.0"  />
-	<event time="23520.0" type="vehicle leaves traffic" person="1" link="1" vehicle="1" networkMode="car" relativePosition="1.0"  />
-	<event time="23520.0" type="PersonLeavesVehicle" person="1" vehicle="1"  />
-	<event time="23520.0" type="arrival" person="1" link="1" legMode="car"  />
-	<event time="23520.0" type="actstart" person="1" link="1" actType="w"  />
-	<event time="23940.0" type="actend" person="4" link="5" actType="w"  />
-	<event time="23940.0" type="departure" person="4" link="5" legMode="car"  />
-	<event time="23940.0" type="PersonEntersVehicle" person="4" vehicle="4"  />
-	<event time="23940.0" type="vehicle enters traffic" person="4" link="5" vehicle="4" networkMode="car" relativePosition="1.0"  />
-	<event time="23940.0" type="vehicle leaves traffic" person="4" link="5" vehicle="4" networkMode="car" relativePosition="1.0"  />
-	<event time="23940.0" type="PersonLeavesVehicle" person="4" vehicle="4"  />
-	<event time="23940.0" type="arrival" person="4" link="5" legMode="car"  />
-	<event time="23940.0" type="actstart" person="4" link="5" actType="w"  />
-	<event time="24060.0" type="actend" person="5" link="5" actType="w"  />
-	<event time="24060.0" type="departure" person="5" link="5" legMode="car"  />
-	<event time="24060.0" type="PersonEntersVehicle" person="5" vehicle="5"  />
-	<event time="24060.0" type="vehicle enters traffic" person="5" link="5" vehicle="5" networkMode="car" relativePosition="1.0"  />
-	<event time="24060.0" type="vehicle leaves traffic" person="5" link="5" vehicle="5" networkMode="car" relativePosition="1.0"  />
-	<event time="24060.0" type="PersonLeavesVehicle" person="5" vehicle="5"  />
-	<event time="24060.0" type="arrival" person="5" link="5" legMode="car"  />
-	<event time="24060.0" type="actstart" person="5" link="5" actType="w"  />
-	<event time="24300.0" type="actend" person="6" link="1" actType="w"  />
-	<event time="24300.0" type="departure" person="6" link="1" legMode="car"  />
-	<event time="24300.0" type="PersonEntersVehicle" person="6" vehicle="6"  />
-	<event time="24300.0" type="vehicle enters traffic" person="6" link="1" vehicle="6" networkMode="car" relativePosition="1.0"  />
-	<event time="24300.0" type="vehicle leaves traffic" person="6" link="1" vehicle="6" networkMode="car" relativePosition="1.0"  />
-	<event time="24300.0" type="PersonLeavesVehicle" person="6" vehicle="6"  />
-	<event time="24300.0" type="arrival" person="6" link="1" legMode="car"  />
-	<event time="24300.0" type="actstart" person="6" link="1" actType="w"  />
-	<event time="24720.0" type="actend" person="2" link="1" actType="w"  />
-	<event time="24720.0" type="departure" person="2" link="1" legMode="car"  />
-	<event time="24720.0" type="PersonEntersVehicle" person="2" vehicle="2"  />
-	<event time="24720.0" type="vehicle enters traffic" person="2" link="1" vehicle="2" networkMode="car" relativePosition="1.0"  />
-	<event time="24720.0" type="vehicle leaves traffic" person="2" link="1" vehicle="2" networkMode="car" relativePosition="1.0"  />
-	<event time="24720.0" type="PersonLeavesVehicle" person="2" vehicle="2"  />
-	<event time="24720.0" type="arrival" person="2" link="1" legMode="car"  />
-	<event time="24720.0" type="actstart" person="2" link="1" actType="w"  />
-	<event time="25620.0" type="actend" person="3" link="1" actType="w"  />
-	<event time="25620.0" type="departure" person="3" link="1" legMode="car"  />
-	<event time="25620.0" type="PersonEntersVehicle" person="3" vehicle="3"  />
-	<event time="25620.0" type="vehicle enters traffic" person="3" link="1" vehicle="3" networkMode="car" relativePosition="1.0"  />
-	<event time="25620.0" type="vehicle leaves traffic" person="3" link="1" vehicle="3" networkMode="car" relativePosition="1.0"  />
-	<event time="25620.0" type="PersonLeavesVehicle" person="3" vehicle="3"  />
-	<event time="25620.0" type="arrival" person="3" link="1" legMode="car"  />
-	<event time="25620.0" type="actstart" person="3" link="1" actType="w"  />
-	<event time="32580.0" type="actend" person="9" link="5" actType="h"  />
-	<event time="32580.0" type="departure" person="9" link="5" legMode="car"  />
-	<event time="32580.0" type="PersonEntersVehicle" person="9" vehicle="9"  />
-	<event time="32580.0" type="actend" person="7" link="3" actType="h"  />
-	<event time="32580.0" type="departure" person="7" link="3" legMode="car"  />
-	<event time="32580.0" type="PersonEntersVehicle" person="7" vehicle="7"  />
-	<event time="32580.0" type="vehicle enters traffic" person="9" link="5" vehicle="9" networkMode="car" relativePosition="1.0"  />
-	<event time="32580.0" type="vehicle enters traffic" person="7" link="3" vehicle="7" networkMode="car" relativePosition="1.0"  />
-	<event time="32581.0" type="left link" vehicle="9" link="5"  />
-	<event time="32581.0" type="entered link" vehicle="9" link="7"  />
-	<event time="32581.0" type="left link" vehicle="7" link="3"  />
-	<event time="32581.0" type="entered link" vehicle="7" link="4"  />
-	<event time="32585.0" type="actend" person="8" link="3" actType="h"  />
-	<event time="32585.0" type="departure" person="8" link="3" legMode="car"  />
-	<event time="32585.0" type="PersonEntersVehicle" person="8" vehicle="8"  />
-	<event time="32585.0" type="actend" person="10" link="5" actType="h"  />
-	<event time="32585.0" type="departure" person="10" link="5" legMode="car"  />
-	<event time="32585.0" type="PersonEntersVehicle" person="10" vehicle="10"  />
-	<event time="32585.0" type="vehicle enters traffic" person="8" link="3" vehicle="8" networkMode="car" relativePosition="1.0"  />
-	<event time="32585.0" type="vehicle enters traffic" person="10" link="5" vehicle="10" networkMode="car" relativePosition="1.0"  />
-	<event time="32586.0" type="left link" vehicle="8" link="3"  />
-	<event time="32586.0" type="entered link" vehicle="8" link="4"  />
-	<event time="32586.0" type="left link" vehicle="10" link="5"  />
-	<event time="32586.0" type="entered link" vehicle="10" link="7"  />
-	<event time="32761.0" type="left link" vehicle="9" link="7"  />
-	<event time="32761.0" type="entered link" vehicle="9" link="3"  />
-	<event time="32766.0" type="left link" vehicle="10" link="7"  />
-	<event time="32766.0" type="entered link" vehicle="10" link="3"  />
-	<event time="32941.0" type="left link" vehicle="7" link="4"  />
-	<event time="32941.0" type="entered link" vehicle="7" link="5"  />
-	<event time="32946.0" type="left link" vehicle="8" link="4"  />
-	<event time="32946.0" type="entered link" vehicle="8" link="5"  />
-	<event time="33120.0" type="vehicle leaves traffic" person="9" link="3" vehicle="9" networkMode="car" relativePosition="1.0"  />
-	<event time="33120.0" type="PersonLeavesVehicle" person="9" vehicle="9"  />
-	<event time="33120.0" type="arrival" person="9" link="3" legMode="car"  />
-	<event time="33120.0" type="actstart" person="9" link="3" actType="w"  />
-	<event time="33120.0" type="vehicle leaves traffic" person="7" link="5" vehicle="7" networkMode="car" relativePosition="1.0"  />
-	<event time="33120.0" type="PersonLeavesVehicle" person="7" vehicle="7"  />
-	<event time="33120.0" type="arrival" person="7" link="5" legMode="car"  />
-	<event time="33120.0" type="actstart" person="7" link="5" actType="w"  />
-	<event time="33125.0" type="vehicle leaves traffic" person="10" link="3" vehicle="10" networkMode="car" relativePosition="1.0"  />
-	<event time="33125.0" type="PersonLeavesVehicle" person="10" vehicle="10"  />
-	<event time="33125.0" type="arrival" person="10" link="3" legMode="car"  />
-	<event time="33125.0" type="actstart" person="10" link="3" actType="w"  />
-	<event time="33125.0" type="vehicle leaves traffic" person="8" link="5" vehicle="8" networkMode="car" relativePosition="1.0"  />
-	<event time="33125.0" type="PersonLeavesVehicle" person="8" vehicle="8"  />
-	<event time="33125.0" type="arrival" person="8" link="5" legMode="car"  />
-	<event time="33125.0" type="actstart" person="8" link="5" actType="w"  />
-	<event time="37800.0" type="actend" person="6" link="1" actType="w"  />
-	<event time="37800.0" type="departure" person="6" link="1" legMode="car"  />
-	<event time="37800.0" type="PersonEntersVehicle" person="6" vehicle="6"  />
-	<event time="37800.0" type="actend" person="5" link="5" actType="w"  />
-	<event time="37800.0" type="departure" person="5" link="5" legMode="car"  />
-	<event time="37800.0" type="PersonEntersVehicle" person="5" vehicle="5"  />
-	<event time="37800.0" type="actend" person="4" link="5" actType="w"  />
-	<event time="37800.0" type="departure" person="4" link="5" legMode="car"  />
-	<event time="37800.0" type="PersonEntersVehicle" person="4" vehicle="4"  />
-	<event time="37800.0" type="actend" person="1" link="1" actType="w"  />
-	<event time="37800.0" type="departure" person="1" link="1" legMode="car"  />
-	<event time="37800.0" type="PersonEntersVehicle" person="1" vehicle="1"  />
-	<event time="37800.0" type="vehicle enters traffic" person="6" link="1" vehicle="6" networkMode="car" relativePosition="1.0"  />
-	<event time="37800.0" type="vehicle enters traffic" person="1" link="1" vehicle="1" networkMode="car" relativePosition="1.0"  />
-	<event time="37800.0" type="vehicle enters traffic" person="5" link="5" vehicle="5" networkMode="car" relativePosition="1.0"  />
-	<event time="37800.0" type="vehicle enters traffic" person="4" link="5" vehicle="4" networkMode="car" relativePosition="1.0"  />
-	<event time="37801.0" type="left link" vehicle="6" link="1"  />
-	<event time="37801.0" type="entered link" vehicle="6" link="2"  />
-	<event time="37801.0" type="left link" vehicle="1" link="1"  />
-	<event time="37801.0" type="entered link" vehicle="1" link="2"  />
-	<event time="37801.0" type="left link" vehicle="5" link="5"  />
-	<event time="37801.0" type="entered link" vehicle="5" link="7"  />
-	<event time="37801.0" type="left link" vehicle="4" link="5"  />
-	<event time="37801.0" type="entered link" vehicle="4" link="7"  />
-	<event time="37981.0" type="left link" vehicle="5" link="7"  />
-	<event time="37981.0" type="entered link" vehicle="5" link="3"  />
-	<event time="37981.0" type="left link" vehicle="4" link="7"  />
-	<event time="37981.0" type="entered link" vehicle="4" link="3"  />
-	<event time="38161.0" type="left link" vehicle="6" link="2"  />
-	<event time="38161.0" type="entered link" vehicle="6" link="3"  />
-	<event time="38161.0" type="left link" vehicle="1" link="2"  />
-	<event time="38161.0" type="entered link" vehicle="1" link="3"  />
-	<event time="38340.0" type="vehicle leaves traffic" person="5" link="3" vehicle="5" networkMode="car" relativePosition="1.0"  />
-	<event time="38340.0" type="PersonLeavesVehicle" person="5" vehicle="5"  />
-	<event time="38340.0" type="arrival" person="5" link="3" legMode="car"  />
-	<event time="38340.0" type="actstart" person="5" link="3" actType="h"  />
-	<event time="38340.0" type="vehicle leaves traffic" person="4" link="3" vehicle="4" networkMode="car" relativePosition="1.0"  />
-	<event time="38340.0" type="PersonLeavesVehicle" person="4" vehicle="4"  />
-	<event time="38340.0" type="arrival" person="4" link="3" legMode="car"  />
-	<event time="38340.0" type="actstart" person="4" link="3" actType="h"  />
-	<event time="38400.0" type="actend" person="2" link="1" actType="w"  />
-	<event time="38400.0" type="departure" person="2" link="1" legMode="car"  />
-	<event time="38400.0" type="PersonEntersVehicle" person="2" vehicle="2"  />
-	<event time="38400.0" type="vehicle enters traffic" person="2" link="1" vehicle="2" networkMode="car" relativePosition="1.0"  />
-	<event time="38401.0" type="left link" vehicle="2" link="1"  />
-	<event time="38401.0" type="entered link" vehicle="2" link="2"  />
-	<event time="38520.0" type="vehicle leaves traffic" person="6" link="3" vehicle="6" networkMode="car" relativePosition="1.0"  />
-	<event time="38520.0" type="PersonLeavesVehicle" person="6" vehicle="6"  />
-	<event time="38520.0" type="arrival" person="6" link="3" legMode="car"  />
-	<event time="38520.0" type="actstart" person="6" link="3" actType="h"  />
-	<event time="38520.0" type="vehicle leaves traffic" person="1" link="3" vehicle="1" networkMode="car" relativePosition="1.0"  />
-	<event time="38520.0" type="PersonLeavesVehicle" person="1" vehicle="1"  />
-	<event time="38520.0" type="arrival" person="1" link="3" legMode="car"  />
-	<event time="38520.0" type="actstart" person="1" link="3" actType="h"  />
-	<event time="38700.0" type="actend" person="3" link="1" actType="w"  />
-	<event time="38700.0" type="departure" person="3" link="1" legMode="car"  />
-	<event time="38700.0" type="PersonEntersVehicle" person="3" vehicle="3"  />
-	<event time="38700.0" type="vehicle enters traffic" person="3" link="1" vehicle="3" networkMode="car" relativePosition="1.0"  />
-	<event time="38701.0" type="left link" vehicle="3" link="1"  />
-	<event time="38701.0" type="entered link" vehicle="3" link="2"  />
-	<event time="38761.0" type="left link" vehicle="2" link="2"  />
-	<event time="38761.0" type="entered link" vehicle="2" link="3"  />
-	<event time="39061.0" type="left link" vehicle="3" link="2"  />
-	<event time="39061.0" type="entered link" vehicle="3" link="3"  />
-	<event time="39120.0" type="vehicle leaves traffic" person="2" link="3" vehicle="2" networkMode="car" relativePosition="1.0"  />
-	<event time="39120.0" type="PersonLeavesVehicle" person="2" vehicle="2"  />
-	<event time="39120.0" type="arrival" person="2" link="3" legMode="car"  />
-	<event time="39120.0" type="actstart" person="2" link="3" actType="h"  />
-	<event time="39420.0" type="vehicle leaves traffic" person="3" link="3" vehicle="3" networkMode="car" relativePosition="1.0"  />
-	<event time="39420.0" type="PersonLeavesVehicle" person="3" vehicle="3"  />
-	<event time="39420.0" type="arrival" person="3" link="3" legMode="car"  />
-	<event time="39420.0" type="actstart" person="3" link="3" actType="h"  />
+	<event time="21800.0" type="entered link" vehicle="2" link="7"  />
+	<event time="21810.0" type="vehicle leaves traffic" person="3" link="7" vehicle="2" networkMode="car" relativePosition="0.34"  />
+	<event time="21810.0" type="vehicle enters traffic" person="3" link="7" vehicle="2" networkMode="car" relativePosition="0.34"  />
+	<event time="21820.0" type="vehicle leaves traffic" person="3" link="7" vehicle="2" networkMode="car" relativePosition="0.83"  />
+	<event time="21820.0" type="vehicle enters traffic" person="3" link="7" vehicle="2" networkMode="car" relativePosition="0.83"  />
+	<event time="21830.0" type="left link" vehicle="2" link="7"  />
 </events>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox spacing="20.0" styleClass="border" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainGUI.AddOneFilterController">
+   <VBox minHeight="75.0" minWidth="200.0" styleClass="border">
+      <children>
+         <HBox minHeight="40.0" minWidth="100.0" spacing="20.0">
+            <children>
+               <Label styleClass="overlap" text="Cible" translateY="-20.0" />
+               <Label prefHeight="17.0" prefWidth="44.0" text="Type :" />
+                <ChoiceBox fx:id="choiceBox" />
+            </children>
+         </HBox>
+      </children>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </padding>
+      <HBox.margin>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </HBox.margin>
+   </VBox>
+   <VBox minHeight="75.0" minWidth="200.0" spacing="15.0" styleClass="border">
+      <children>
+         <Label styleClass="overlap" text="Action" translateY="-20.0" />
+         <HBox>
+            <children>
+               <Label text="Cacher : " />
+                <CheckBox fx:id="checkbox" alignment="CENTER" />
+            </children>
+         </HBox>
+         <HBox fx:id="colorBox">
+            <children>
+               <Label text="Couleur : " />
+                <ColorPicker fx:id="colorPicker" />
+            </children>
+         </HBox>
+          <HBox fx:id="sizeBox">
+              <Label text="Size:"/>
+              <TextField fx:id="size" text="1"/>
+          </HBox>
+      </children>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </padding>
+      <HBox.margin>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </HBox.margin>
+   </VBox>
+    <Button alignment="CENTER" onAction="#removeLine" text="X" />
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="20.0" />
+   </padding>
+</HBox>

@@ -1,53 +1,56 @@
 {
-      "ScenarioName": "My Scenario",
+      "ScenarioName": "EquilExtended",
       "InputPath": "./input",
       "PackageName": "MatsimModel",
-      "Unit": "Imperial",
+      "Unit": "Metric",
       "ParserPackage": "MatsimParser",
+      "ScenarioProcessor" : "MSScenarioProcessor",
       "MandatoryModules" : [
           {
               "InputFile": "output_events.xml",
               "ModelName": "MSEvent",
               "Path": "event",
               "SuperModelName":  "Event",
-              "ParserName": "MSMandatoryParser"
-          }, {
-              "InputFile": "output_network.xml",
+              "ParserName": "MSMandatoryParser",
+              "Types" : []
+          }, { 
+              "InputFile": "network.xml",
               "ModelName": "MSLink" ,
               "Path": "link",
               "SuperModelName": "Link",
-              "ParserName": "MSMandatoryParser"
+              "ParserName": "MSMandatoryParser",
+              "Types" : ["modes", "type"]
           }, {
-              "InputFile": "output_network.xml",
+              "InputFile": "network.xml",
               "ModelName": "MSNode" ,
               "Path": "node",
-              "SuperModelName": "MSNetwork",
-              "ParserName": "MSMandatoryParser"
+              "SuperModelName": "Node",
+              "ParserName": "MSMandatoryParser",
+              "Types" : ["type"]
+          }, {
+              "InputFile": "output_vehicles.xml",
+              "ModelName": "MSVehicle" ,
+              "Path": "vehicle",
+              "SuperModelName": "Vehicle",
+              "ParserName": "MSMandatoryParser",
+              "Types" : ["type"]
+          }, {
+              "InputFile": "plans100.xml",
+              "ModelName": "MSPerson" ,
+              "Path": "person",
+              "SuperModelName": "Person",
+              "ParserName": "MSMandatoryParser",
+              "Types" : ["sex", "license", "car_avail", "job"]
           }
       ],
       "OptionalModules" : [
           {
-              "InputFile": "output_household.xml",
-              "ModelName" :  "MSHousehold",
-              "Path": "household",
-              "SuperModelName": "Household",
-              "ParserName": "MSOptionalParser"
+              "InputFile": "facilities.xml",
+              "ModelName" :  "MSFacility",
+              "Path": "facility",
+              "SuperModelName": "Facility",
+              "ParserName": "MSOptionalParser",
+              "Types" : ["access", "type", "opentime"]
           }
-      ],
-    "Injections" : [
-        {
-            "InputFile" : " output_network.xml",
-            "InjectableModel" : "MSNode",
-            "AcceptorModel" : "MSNetwork",
-            "Path" : "node",
-            "AcceptorField" : "nodes"
-        },
-        {
-            "InputFile" : " output_network.xml",
-            "InjectableModel" : "MSLink",
-            "AcceptorModel" : "MSNetwork",
-            "Path" : "link",
-            "AcceptorField" : "links"
-        }
-    ]
+      ]
 }

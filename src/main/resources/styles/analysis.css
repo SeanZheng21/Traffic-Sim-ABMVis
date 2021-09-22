@@ -1,0 +1,71 @@
+/*Feuille de style concernant
+    - addFilter.fxml
+    - AddOneFilter.fxml*/
+
+/*Variable de couleur, a changer si besoin */
+{
+    bg-color: #4B4B4B;
+    label-color: #B9B9B9;
+    hover-bg-color: #C3C3C3;
+    hover-label-color: #FFFFFF;
+}
+
+#rootAnalysis{
+    -fx-background-color: bg-color;
+}
+
+#rootAnalysis > .label,
+.chart-title,
+#labelBot{
+    -fx-text-fill: label-color;
+}
+
+.chart-plot-background {
+    -fx-background-color: bg-color;
+}
+
+.axis{
+    -fx-tick-label-fill: label-color;
+}
+
+.chart-legend {
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
+
+
+
+.combo-box,
+.text-field{
+    -fx-background-color: #373737;
+    -fx-border-color: label-color;
+    -fx-text-fill: label-color;
+}
+
+.button{
+    -fx-background-color: bg-color;
+    -fx-border-color: label-color;
+    -fx-border-radius: 5,4,3,5;
+    -fx-border-insets: 0,1,2,0;
+    -fx-text-fill: label-color;
+}
+
+.border{
+    -fx-border-color: label-color;
+    -fx-border-radius: 5,4,3,5;
+    -fx-border-insets: 0,1,2,0;
+    -fx-start-margin: 5,5,5,5;
+}
+
+/*Fleche de la combo box*/
+.arrow{
+    -fx-background-color: BLACK, LIGHTGREY;
+    -fx-padding: 0.25em 0.3125em 0.25em 0.3125em;
+    -fx-shape: "M 0 0 L 300 0 L 150 150 z";
+}
+
+.combo-box .list-cell
+{
+    -fx-background-color: bg-color;
+    -fx-text-fill: label-color;
+}

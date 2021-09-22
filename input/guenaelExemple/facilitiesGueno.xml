@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facilities SYSTEM "http://www.matsim.org/files/dtd/facilities_v1.dtd">
+<facilities>
+
+<!-- ====================================================================== -->
+
+	<facility id="1" x="100" y="100" linkId="1">
+		<activity type="work">
+			<opentime day="wkday" start_time="08:00:00" end_time="19:00:00" />
+		</activity>
+	</facility>
+
+<!-- ====================================================================== -->
+
+	<facility id="2" x="0" y="100" linkId="2">
+		<activity type="work">
+			<opentime day="wkday" start_time="08:00:00" end_time="19:00:00" />
+		</activity>
+	</facility>
+
+</facilities>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="rootAddFilter" prefHeight="800.0" prefWidth="800.0" stylesheets="@../styles/addFilter.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainGUI.AddFilterController">
+        <VBox spacing="10.0">
+            <HBox fx:id="hboxLabel" alignment="CENTER_LEFT">
+                <Label text="Nom du filtre :" />
+                <TextField fx:id="nameField">
+                <opaqueInsets>
+                   <Insets />
+                </opaqueInsets>
+                <HBox.margin>
+                   <Insets left="10.0" />
+                </HBox.margin></TextField>
+            </HBox>
+          <ScrollPane fitToHeight="true" fitToWidth="true" minViewportHeight="500.0" minViewportWidth="800.0" prefViewportHeight="500.0" prefViewportWidth="800.0">
+            <content>
+              <AnchorPane>
+                   <children>
+                        <VBox fx:id="linePane" spacing="10.0" />
+                   </children>
+                </AnchorPane>
+            </content>
+          </ScrollPane>
+          <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+             <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" onAction="#addFilterMenu" text="Ajouter un champ" />
+                  <Button alignment="CENTER" contentDisplay="CENTER" onAction="#submitButtonPressed" text="Ajouter le filtre" />
+             </children>
+          </HBox>
+          <padding>
+             <Insets top="10.0" />
+          </padding>
+       </VBox>
+</AnchorPane>

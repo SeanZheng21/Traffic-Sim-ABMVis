@@ -1,0 +1,59 @@
+/*Feuille de style concernant
+    - timePane.fxml*/
+
+
+/*Variable de couleur, a changer si besoin */
+{
+    bg-color: #4B4B4B;
+    label-color: #B9B9B9;
+    hover-bg-color: #C3C3C3;
+    hover-label-color: #FFFFFF;
+}
+
+#rootTimePane{
+    -fx-background-color: bg-color;
+}
+
+#rootTimePane .label{
+    -fx-text-fill: label-color;
+}
+
+.button{
+    -fx-background-color: bg-color;
+    -fx-border-color: label-color;
+    -fx-border-radius: 5,4,3,5;
+    -fx-border-insets: 0,1,2,0;
+    -fx-text-fill: label-color;
+}
+
+.buttonLT{
+    -fx-background-color: yellow;
+    -fx-shape: "M 50 0 L 0 50 L 50 100 L 60 100 L 10 50 L 60 0 z";
+
+}
+
+.buttonGT{
+    -fx-background-color: yellow;
+    -fx-shape: "M 0 0 L 50 50 L 0 100 L 10 100 L 60 50 L 10 0 z";
+}
+
+.slider .thumb{
+    -fx-background-color: yellow;
+    -fx-shape: "M 0 0 L 100 0 L 100 50  L 50 100 L 0 50 z";
+}
+
+.slider .track{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-background-radius : 0;
+}
+
+.slider .axis-tick-mark{
+    -fx-stroke: white;
+    -fx-stroke-width: 2px;
+    -fx-translate-y: -1px;
+}
+
+.slider .axis{
+    -fx-tick-label-fill: white;
+}

@@ -1,0 +1,41 @@
+/*Feuille de style concernant
+    - importProject.fxml*/
+
+
+/*Variable de couleur, a changer si besoin */
+{
+    bg-color: #4B4B4B;
+    label-color: #B9B9B9;
+    hover-bg-color: #C3C3C3;
+    hover-label-color: #FFFFFF;
+}
+
+#rootImportProject{
+    -fx-background-color: bg-color;
+}
+
+#rootImportProject .label{
+    -fx-text-fill: label-color;
+}
+
+.button,
+.text-field,
+.check-box{
+    -fx-background-color: bg-color,
+    linear-gradient(bg-color 0%, #404040 20%, #191d22 100%),
+    linear-gradient(#404040, #191d22),
+    radial-gradient(center 50% 0%, radius 100%, rgba(195,195,195,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: label-color;
+}
+
+.text-area .content{
+    -fx-background-color: bg-color;
+    -fx-text-fill: label-color;
+}
+
+.check-box .box {
+    -fx-background-color: white;
+    -fx-border-color:grey;
+}

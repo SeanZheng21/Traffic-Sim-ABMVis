@@ -1,0 +1,20 @@
+/*Feuille de style concernant
+    - raccourcis.fxml*/
+
+
+/*Variable de couleur, a changer si besoin */
+{
+    bg-color: #4B4B4B;
+    label-color: #B9B9B9;
+    hover-bg-color: #C3C3C3;
+    hover-label-color: #FFFFFF;
+}
+
+.rootShortcut{
+    -fx-background-color: bg-color;
+}
+
+.rootShortcut .label{
+    -fx-text-fill: label-color;
+    -fx-font-size: 14px;
+}

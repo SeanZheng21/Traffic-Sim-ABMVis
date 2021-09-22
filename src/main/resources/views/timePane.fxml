@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="rootTimePane" stylesheets="@../styles/timePane.css" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainGUI.TimePaneController">
+    <VBox alignment="CENTER" spacing="20.0">
+        <children>
+            <HBox>
+                <children>
+                    <Button fx:id="pauseButton" onAction="#pauseButtonPressed" text="|&gt;" />
+                    <TextField fx:id="timePeriodField" disable="true">
+                  <HBox.margin>
+                     <Insets right="20.0" />
+                  </HBox.margin></TextField>
+                    <Button onAction="#stepDecreaseButtonPressed" styleClass="buttonLT" />
+                    <TextField fx:id="stepField" />
+                    <Button onAction="#stepIncreaseButtonPressed" styleClass="buttonGT" />
+                    <VBox spacing="20.0">
+                        <children>
+                            <TextField fx:id="speedField" alignment="CENTER_RIGHT">
+                        <VBox.margin>
+                           <Insets />
+                        </VBox.margin></TextField>
+                            <Slider fx:id="speedSlider" blockIncrement="0" majorTickUnit="10.0" max="10" min="-10" showTickLabels="true" showTickMarks="true" />
+                        </children>
+                  <HBox.margin>
+                     <Insets left="20.0" />
+                  </HBox.margin>
+                    </VBox>
+                </children></HBox>
+            <Slider fx:id="timeSlider" blockIncrement="0" majorTickUnit="3600.0" minorTickCount="0" showTickMarks="true">
+            <VBox.margin>
+               <Insets left="50.0" />
+            </VBox.margin></Slider>
+        </children>
+    </VBox>
+</Pane>
