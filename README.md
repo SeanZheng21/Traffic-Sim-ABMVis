@@ -1,13 +1,23 @@
 # Traffic Simulator ABMVis
 
-## Project setup guide:\
-Use recommended .gitignore file\
-Download Maven dependencies and build with Maven\
-Project language level: 11\
+![Page 1](https://github.com/SeanZheng21/Traffic-Sim-ABMVis/blob/master/images/1.png)
+![Page 2](https://github.com/SeanZheng21/Traffic-Sim-ABMVis/blob/master/images/2.png)
+![Page 3](https://github.com/SeanZheng21/Traffic-Sim-ABMVis/blob/master/images/3.png)
+![Page 4](https://github.com/SeanZheng21/Traffic-Sim-ABMVis/blob/master/images/4.png)
+![Page 5](https://github.com/SeanZheng21/Traffic-Sim-ABMVis/blob/master/images/5.png)
+![Page 6](https://github.com/SeanZheng21/Traffic-Sim-ABMVis/blob/master/images/6.png)
+
+## Project setup guide:
+Use recommended .gitignore file
+
+Download Maven dependencies and build with Maven
+
+Project language level: 11
+
 Test: JUnit5
 
-DO NOT only add import in your class!\
-Otherwise the artifact won't work!\
+DO NOT only add import in your class! Otherwise the artifact won't work!
+
 If your code need an external library, use Maven like this: 
 1. Search its maven dependency online
 2. Paste it to pom.xml under dependencies
