@@ -7,6 +7,9 @@
 ![Page 5](https://github.com/SeanZheng21/Traffic-Sim-ABMVis/blob/master/images/5.png)
 ![Page 6](https://github.com/SeanZheng21/Traffic-Sim-ABMVis/blob/master/images/6.png)
 
+## /!\ /!\ Attention /!\ /!\
+## /!\ /!\ This is not the full version of the project! Please contact the team for the full version! /!\ /!\
+
 ## Project setup guide:
 Use recommended .gitignore file
 
