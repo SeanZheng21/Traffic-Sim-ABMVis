@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"AbmModel"},{"l":"AbmParser"},{"l":"All Packages","url":"allpackages-index.html"},{"l":"MainGUI"},{"l":"MatsimModel"},{"l":"MatsimParser"},{"l":"UIAbmModel"}]
